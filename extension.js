@@ -2293,7 +2293,7 @@ class Manager {
 		);
 		manager.context.subscriptions.push(
 			vscode.commands.registerCommand('highlight.regex.workspace.copyToGlobal', async (e) => {
-				log.debug('command: highlight.regex.global.copyToWorkspace');
+				log.debug('command: highlight.regex.workspace.copyToGlobal');
 				// hide quickpick if visible
 				if (manager.quickpick.visible) {
 					manager.quickpick.quickpick.hide();

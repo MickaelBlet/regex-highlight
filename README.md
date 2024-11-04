@@ -24,25 +24,31 @@ Choose from tree your regexes.
 
 Edit key(s) within workspace json settings.
 
-![alt text](images/treeEditItemWorkspace.gif)
+![tree edit workspace](images/treeEditItemWorkspace.gif)
 
 ### Priority
 
 Change the order of regexes to adjust their priority.
 
-![alt text](images/treePriorityWorkspace.gif)
+![tree priority workspace](images/treePriorityWorkspace.gif)
+
+### Delete
+
+Delete with contectual menu.
+
+![tree delete workspace](images/treeDeleteWorkspace.gif)
 
 ### Navigate
 
 Navigate through regex matches in the active editor.
 
-![alt text](images/treeActiveSearch.gif)
+![tree active search](images/treeActiveSearch.gif)
 
 ## Commands
 
 |Name|Command|Description|
 |---|---|---|
-|**Highlight Regex: Choose by name(s)**|*highlight.regex.choose.names*|Activate/Desactivate specific regexes
+|**Highlight Regex: Choose by name(s)**|*highlight.regex.choose.names*|Activate/Desactivate specific regexes|
 |**Highlight Regex: Toggle**|*highlight.regex.toggle*|Activate/Desactivate all scopes regexes|
 |**Highlight Regex: Global Toggle**|*highlight.regex.global.toggle*|Activate/Desactivate all regexes of global scope|
 |**Highlight Regex: Workspace Toggle**|*highlight.regex.workspace.toggle*|Activate/Desactivate all regexes of workspace scope|
@@ -60,6 +66,7 @@ Navigate through regex matches in the active editor.
 
 The **highlight.regex.regexes** and **highlight.regex.workspace.regexes** properties take a list of objects.  
 The first object level can include the following properties:
+
 |Name|Description|
 |---|---|
 |**name**|A name of regexes|
@@ -68,7 +75,7 @@ The first object level can include the following properties:
 |**languageIds**|A list of language IDs used to apply child decorations|
 |**languageRegex**|If languageIds not define, A regex pattern that, when matched with the language ID, applies child decorations|
 |**filenameRegex**|A regex pattern that, when matched with the file path, applies child decorations|
-|**regexes**|A list of objects with the [Regexes child settings](#regexes-child-settings) properties
+|**regexes**|A list of objects with the [Regexes child settings](#regexes-child-settings) properties|
 
 ### Regexes child settings
 

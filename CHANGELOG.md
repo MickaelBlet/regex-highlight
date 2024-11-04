@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 2.0.1: November 04, 2024
+### Enhancements
+* Readme tree delete demo.
+### Fix
+* Copy to global.
+
 ## Version 2.0.0: October 10, 2024
 ### New Features
 * New icon.

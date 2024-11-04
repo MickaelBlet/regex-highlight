@@ -216,7 +216,7 @@
 {% if scope == 'workspace' %}
 			,
 			{
-				"command": "highlight.regex.{{scope}}.copyToglobal",
+				"command": "highlight.regex.{{scope}}.copyToGlobal",
 				"title": "Copy to global",
 				"icon": "$(references)",
 				"enablement": "view == highlight.regex.view.{{scope}}"
